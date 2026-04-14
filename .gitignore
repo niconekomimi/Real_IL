@@ -1,0 +1,26 @@
+LIBERO/*
+robocasa/*
+
+logs/*
+
+**/__pycache__/
+
+.idea/*
+.vscode/*
+.git.history_backup_*/
+
+*.egg-info
+slurm_jobs/output/
+
+utils/figures/*
+
+# real-robot artifacts and datasets
+real_robot/outputs/
+real_robot/data/
+
+# external library checkout
+/xlstm/
+
+# keep only the model-compatible 512-d embedding generator in task_embeddings
+task_embeddings/*
+!task_embeddings/task_embeddings.py
